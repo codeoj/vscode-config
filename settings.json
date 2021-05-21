@@ -1,0 +1,63 @@
+{
+    //Tema do Vs Code
+    "workbench.colorTheme": "Dracula",
+
+    //Define o tamanho da fonte do terminal do Vs Code
+    "terminal.integrated.fontSize": 14,
+
+    //icones
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+
+    // Tamanho e familia da fonte
+    "editor.tabSize": 2,
+    "editor.fontSize": 18,
+    "editor.lineHeight": 24,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": false,
+
+    // Não deixa a pasta lado a lado se criar uma pasta vazia
+    "explorer.compactFolders": false,
+
+    "editor.renderLineHighlight": "gutter",
+
+    // Dentro de um arquivo, mostra qual é a pasta na aba
+    "workbench.editor.labelFormat": "short",
+
+    //Mostra o caminho todo do arquivo logo abaixo da aba
+    "breadcrumbs.enabled": true,
+
+    // Box de ajuda que fica em cima do código ao passar o mause
+    "editor.parameterHints.enabled": false,
+
+
+    "editor.rulers": [80, 120],
+
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        },
+    },
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        },
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        },
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        },
+    },
+    
+    // Ao trocar arquivos de pasta não faz o auto import
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+
+    "editor.renderWhitespace": "all",
+    "window.menuBarVisibility": "toggle"
+}
