@@ -5,7 +5,7 @@
     //Define o tamanho da fonte do terminal do Vs Code
     "terminal.integrated.fontSize": 14,
 
-    //icones
+    //icone theme
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
 
